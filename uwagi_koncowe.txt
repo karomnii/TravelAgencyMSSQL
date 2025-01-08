@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------
+-- 14. UWAGI KOŃCOWE
+---------------------------------------------------------------------------------------
+-- 1) Hasła w CREATE LOGIN są przykładowe (należy użyć silniejszych haseł).
+-- 2) Ścieżki w BACKUP/RESTORE należy dostosować do środowiska.
+-- 3) Przy wdrożeniu produkcyjnym zalecane są dodatkowe testy integralności i wydajności.
+-- 4) W razie potrzeby można dalej rozbudowywać procedury biznesowe i walidacje.
+-- 5) Rezerwacje posiadają ReservationStatusID (1=Złożona, 2=Potwierdzona, 3=Anulowana),
+--    co zapewnia spójność danych i umożliwia łatwe dodawanie kolejnych statusów w przyszłości.
